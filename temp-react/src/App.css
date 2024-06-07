@@ -4,6 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
+@media (max-width: 768px) {
+  #root {
+    max-width: 720px; /* Adjust the max-width for tablet view */
+    padding: 1.5rem; /* Reduce padding for tablet view */
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  #root {
+    max-width: 100%; /* Full width for mobile view */
+    padding: 1rem; /* Reduce padding for mobile view */
+  }
+}
 
 .logo {
   height: 6em;
