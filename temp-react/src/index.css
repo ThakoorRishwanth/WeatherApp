@@ -33,6 +33,21 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  body {
+    background-size: cover;
+    place-items: flex-start;
+    padding: 20px;
+  }
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
